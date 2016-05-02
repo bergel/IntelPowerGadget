@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "AlexandreBergel 5/2/2016 13:59",
+		"numberOfLogEntries" : "AlexandreBergel 5/2/2016 13:59",
+		"parseFile:" : "AlexandreBergel 5/2/2016 13:57",
+		"processLine:" : "AlexandreBergel 5/2/2016 13:58",
+		"profile:" : "AlexandreBergel 5/2/2016 13:47" } }

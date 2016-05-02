@@ -1,0 +1,24 @@
+{
+	"category" : "IntelPowerGadget",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gtFrequency",
+		"cpuFrequency",
+		"processorPower",
+		"processorEnergyJ",
+		"processorEnergymWH",
+		"iaPowerW",
+		"iaEnergyJ",
+		"iaEnergymWh",
+		"packageTemperatureC",
+		"packageHot",
+		"packagePowerLimit" ],
+	"name" : "LogEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
