@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"p" ],
 	"name" : "IntelPowerGadgetTest",
 	"pools" : [
 		 ],

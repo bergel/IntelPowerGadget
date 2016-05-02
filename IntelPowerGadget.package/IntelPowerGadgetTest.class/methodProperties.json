@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBasic" : "AlexandreBergel 5/2/2016 14:04" } }
+		"setUp" : "AlexandreBergel 5/2/2016 14:25",
+		"shortScript" : "AlexandreBergel 5/2/2016 14:23",
+		"testBasic" : "AlexandreBergel 5/2/2016 14:25",
+		"testParseText" : "AlexandreBergel 5/2/2016 14:32" } }
