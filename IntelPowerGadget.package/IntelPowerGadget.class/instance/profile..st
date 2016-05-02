@@ -1,4 +1,4 @@
-as yet unclassified
+public
 profile: aBlock
 	"
 	self new profile: [ (Delay forSeconds: 2) wait ] 

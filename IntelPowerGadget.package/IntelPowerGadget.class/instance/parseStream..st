@@ -1,4 +1,4 @@
-as yet unclassified
+private - logging parsing
 parseStream: aStream
 	"
 	self new parseFile: ('/tmp/power.log' asFileReference readStream) 

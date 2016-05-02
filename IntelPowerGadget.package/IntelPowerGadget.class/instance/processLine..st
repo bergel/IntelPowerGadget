@@ -1,4 +1,4 @@
-as yet unclassified
+private - logging parsing
 processLine: aLine
 	| d indexOfEqual beforeEquals afterEquals selector |
 	(aLine beginsWith: '---') ifTrue: [ self createLogEntry. ^ self ].
