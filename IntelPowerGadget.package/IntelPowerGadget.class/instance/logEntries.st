@@ -1,0 +1,3 @@
+accessing - computed
+logEntries
+	^ logEntries
