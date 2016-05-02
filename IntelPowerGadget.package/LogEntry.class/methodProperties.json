@@ -2,4 +2,25 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"cpuFrequency" : "AlexandreBergel 5/2/2016 14:09",
+		"cpuFrequency:" : "AlexandreBergel 5/2/2016 14:09",
+		"gtFrequency" : "AlexandreBergel 5/2/2016 14:09",
+		"gtFrequency:" : "AlexandreBergel 5/2/2016 14:09",
+		"iaEnergyJ" : "AlexandreBergel 5/2/2016 14:09",
+		"iaEnergyJ:" : "AlexandreBergel 5/2/2016 14:09",
+		"iaEnergymWh" : "AlexandreBergel 5/2/2016 14:09",
+		"iaEnergymWh:" : "AlexandreBergel 5/2/2016 14:09",
+		"iaPowerW" : "AlexandreBergel 5/2/2016 14:09",
+		"iaPowerW:" : "AlexandreBergel 5/2/2016 14:09",
+		"packageHot" : "AlexandreBergel 5/2/2016 14:10",
+		"packageHot:" : "AlexandreBergel 5/2/2016 14:10",
+		"packagePowerLimit" : "AlexandreBergel 5/2/2016 14:10",
+		"packagePowerLimit:" : "AlexandreBergel 5/2/2016 14:10",
+		"packageTemperatureC" : "AlexandreBergel 5/2/2016 14:10",
+		"packageTemperatureC:" : "AlexandreBergel 5/2/2016 14:10",
+		"processorEnergyJ" : "AlexandreBergel 5/2/2016 14:10",
+		"processorEnergyJ:" : "AlexandreBergel 5/2/2016 14:10",
+		"processorEnergymWH" : "AlexandreBergel 5/2/2016 14:10",
+		"processorEnergymWH:" : "AlexandreBergel 5/2/2016 14:10",
+		"processorPower" : "AlexandreBergel 5/2/2016 14:11",
+		"processorPower:" : "AlexandreBergel 5/2/2016 14:11" } }

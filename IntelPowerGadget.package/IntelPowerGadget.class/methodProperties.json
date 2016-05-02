@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "AlexandreBergel 5/2/2016 13:59",
+		"createLogEntry" : "AlexandreBergel 5/2/2016 14:04",
+		"currentEntry" : "AlexandreBergel 5/2/2016 14:04",
+		"initialize" : "AlexandreBergel 5/2/2016 14:03",
 		"numberOfLogEntries" : "AlexandreBergel 5/2/2016 13:59",
 		"parseFile:" : "AlexandreBergel 5/2/2016 13:57",
 		"processLine:" : "AlexandreBergel 5/2/2016 13:58",
