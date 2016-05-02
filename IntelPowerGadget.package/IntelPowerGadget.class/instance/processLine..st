@@ -2,6 +2,7 @@ private - logging parsing
 processLine: aLine
 	| indexOfEqual beforeEquals afterEquals selector |
 	(aLine beginsWith: '---') ifTrue: [ self createLogEntry. ^ self ].
+	aLine = 'Done' ifTrue: [ ^ self ].
 	
 	indexOfEqual := aLine indexOf: $=.
 	beforeEquals := aLine copyFrom: 1 to: indexOfEqual - 1.

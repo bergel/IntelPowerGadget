@@ -1,5 +1,5 @@
 visualization
-gtViewTemperatureIn: composite
+gtViewCPUFreqIn: composite
 	<gtInspectorPresentationOrder: -10>
 	composite roassal2
 		title: 'Temp';
@@ -8,6 +8,6 @@ gtViewTemperatureIn: composite
 			b := RTGrapher new.
 			ds := RTData new.
 			ds points: self validLogEntries.
-			ds y: #gtFrequency.
+			ds y: #cpuFrequency.
 			b add: ds.
 			b ]

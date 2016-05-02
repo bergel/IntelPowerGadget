@@ -8,7 +8,8 @@
 	"instvars" : [
 		"process",
 		"logEntries",
-		"parsingDictionaryCache" ],
+		"parsingDictionaryCache",
+		"duration" ],
 	"name" : "IntelPowerGadget",
 	"pools" : [
 		 ],

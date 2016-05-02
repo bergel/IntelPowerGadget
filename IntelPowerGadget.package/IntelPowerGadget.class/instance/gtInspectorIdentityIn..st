@@ -6,7 +6,7 @@ gtInspectorIdentityIn: composite
 		initializeView: [
 			| b |
 			b := RTMondrian new.
-			b nodes: logEntries.
+			b nodes: self validLogEntries.
 			b normalizer distinctColor.
 			b layout grid; gapSize: 1.
 			b ]

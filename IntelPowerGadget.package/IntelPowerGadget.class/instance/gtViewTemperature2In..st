@@ -1,13 +1,13 @@
 visualization
-gtViewTemperatureIn: composite
+gtViewTemperature2In: composite
 	<gtInspectorPresentationOrder: -10>
 	composite roassal2
-		title: 'Temp';
+		title: 'Temp2';
 		initializeView: [
 			| b ds |
 			b := RTGrapher new.
 			ds := RTData new.
 			ds points: self validLogEntries.
-			ds y: #gtFrequency.
+			ds y: #processorEnergyJ.
 			b add: ds.
 			b ]
