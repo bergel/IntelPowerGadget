@@ -8,5 +8,7 @@ profile: aBlock
 	process := OSProcess command: '/Applications/Intel\ Power\ Gadget/PowerLog -duration 500 -verbose > ', self defaultFileName.
 	duration := aBlock timeToRun.
 	process sigquit.
+	process terminate.
 	self waitABit.
+	 
 	self parseFilenamed: self defaultFileName
