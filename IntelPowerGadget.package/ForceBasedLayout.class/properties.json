@@ -1,0 +1,14 @@
+{
+	"category" : "IntelPowerGadget-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ForceBasedLayout",
+	"pools" : [
+		 ],
+	"super" : "Benchmark",
+	"type" : "normal" }

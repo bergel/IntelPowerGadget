@@ -1,0 +1,14 @@
+{
+	"category" : "IntelPowerGadget-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Benchmark",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

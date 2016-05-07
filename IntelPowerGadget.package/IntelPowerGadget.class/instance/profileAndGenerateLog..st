@@ -1,5 +1,5 @@
 public
-profile: aBlock
+profileAndGenerateLog: aBlock
 	"
 	self new profile: [ (Delay forSeconds: 2) wait ] 
 	self new profile: [ 40 timesRepeat: [ Object withAllSubclasses collect: #numberOfMethods ] ]
@@ -24,15 +24,10 @@ profile: aBlock
 	self new profile: [ (Delay forSeconds: 20) wait ].
 	
 	"
-	self profileAndGenerateLog: aBlock.
-	self waitABit.
-	self parseFilenamed: logFilename
-	
-	"USING OSPROCESS -- buggy code--"
-"	process := OSProcess command: '/Applications/Intel\ Power\ Gadget/PowerLog -duration 500 -verbose > ', self defaultFileName.
+	process := (OSSUnixSubprocess new
+						command: '/Applications/Intel Power Gadget/PowerLog';
+						arguments: #('-duration' '10000000' '-verbose');
+						redirectStdoutTo: (StandardFileStream forceNewFileNamed: logFilename);
+						run).
 	duration := aBlock timeToRun.
-	process sigquit.
-	process terminate.
-	self waitABit.
-	 
-	self parseFilenamed: self defaultFileName"
+	process terminate

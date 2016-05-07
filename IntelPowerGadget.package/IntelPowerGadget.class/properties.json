@@ -9,7 +9,8 @@
 		"process",
 		"logEntries",
 		"parsingDictionaryCache",
-		"duration" ],
+		"duration",
+		"logFilename" ],
 	"name" : "IntelPowerGadget",
 	"pools" : [
 		 ],

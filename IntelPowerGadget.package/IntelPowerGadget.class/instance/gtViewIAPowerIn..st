@@ -1,6 +1,6 @@
 visualization
 gtViewIAPowerIn: composite
-	<gtInspectorPresentationOrder: -10>
+	<gtInspectorPresentationOrder: -100>
 	| lb |
 	composite roassal2
 		title: 'IAPow';

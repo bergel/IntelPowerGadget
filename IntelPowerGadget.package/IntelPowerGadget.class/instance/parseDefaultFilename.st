@@ -3,4 +3,4 @@ parseDefaultFilename
 	"
 	self new parseDefaultFilename
 	"
-	self parseFilenamed: self defaultFileName 
+	self parseFilenamed: logFilename

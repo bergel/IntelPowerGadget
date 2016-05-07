@@ -2,4 +2,5 @@ initialization
 initialize
 	super initialize.
 	logEntries := OrderedCollection new.
-	self initializeParsingDictionaryCache
+	self initializeParsingDictionaryCache.
+	logFilename := self defaultFileName.

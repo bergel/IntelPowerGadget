@@ -1,0 +1,14 @@
+{
+	"category" : "IntelPowerGadget-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RecursiveFactorial",
+	"pools" : [
+		 ],
+	"super" : "Benchmark",
+	"type" : "normal" }
