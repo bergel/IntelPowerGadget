@@ -3,7 +3,7 @@ gtViewTemperatureIn: composite
 	<gtInspectorPresentationOrder: -10>
 	| lb |
 	composite roassal2
-		title: 'Temp';
+		title: 'GTFrq';
 		initializeView: [
 			| b ds |
 			b := RTGrapher new.
@@ -19,7 +19,7 @@ gtViewTemperatureIn: composite
 			
 			lb := RTLegendBuilder new.
 			lb view: b view.
-			lb addText: 'CPU frequency along time'.
+			lb addText: 'Graphic Processor (GT) frequency along time'.
 			lb addText: '# snapshots = ', self validLogEntries size asString.
 			lb build.
 			
