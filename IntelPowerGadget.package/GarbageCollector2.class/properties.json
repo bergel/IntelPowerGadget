@@ -1,0 +1,14 @@
+{
+	"category" : "IntelPowerGadget-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GarbageCollector2",
+	"pools" : [
+		 ],
+	"super" : "Benchmark",
+	"type" : "normal" }
