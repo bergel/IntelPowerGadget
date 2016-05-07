@@ -6,4 +6,5 @@ runAllBenchmarks
 	
 	Benchmark new runAllBenchmarks
 	"
+	<script: 'Benchmark new runAllBenchmarks'>
 	Benchmark allSubclassesDo: [ :c | c new run ]
