@@ -1,0 +1,4 @@
+public
+viewLogFile
+	'/tmp' asFileReference 
+	
