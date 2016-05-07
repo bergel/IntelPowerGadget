@@ -9,7 +9,7 @@
 		"gtViewCPUFreqIn:" : "AlexandreBergel 5/2/2016 15:30",
 		"gtViewIAPowerIn:" : "AlexandreBergel 5/2/2016 15:30",
 		"gtViewTemperature2In:" : "AlexandreBergel 5/2/2016 15:24",
-		"gtViewTemperatureIn:" : "AlexandreBergel 5/2/2016 15:24",
+		"gtViewTemperatureIn:" : "AlexandreBergel 5/7/2016 15:40",
 		"initialize" : "AlexandreBergel 5/2/2016 14:38",
 		"initializeParsingDictionaryCache" : "AlexandreBergel 5/2/2016 14:38",
 		"logEntries" : "AlexandreBergel 5/2/2016 15:03",
@@ -19,7 +19,7 @@
 		"parseFilenamed:" : "AlexandreBergel 5/2/2016 15:23",
 		"parseStream:" : "AlexandreBergel 5/2/2016 14:29",
 		"parseText:" : "AlexandreBergel 5/2/2016 14:30",
-		"processLine:" : "AlexandreBergel 5/2/2016 15:22",
-		"profile:" : "AlexandreBergel 5/2/2016 17:47",
+		"processLine:" : "AlexandreBergel 5/7/2016 15:52",
+		"profile:" : "AlexandreBergel 5/7/2016 15:32",
 		"validLogEntries" : "AlexandreBergel 5/2/2016 15:12",
 		"waitABit" : "AlexandreBergel 5/2/2016 14:46" } }
