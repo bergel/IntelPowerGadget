@@ -7,4 +7,4 @@ runAllBenchmarks
 	Benchmark new runAllBenchmarks
 	"
 	<script: 'Benchmark new runAllBenchmarks'>
-	Benchmark allSubclassesDo: [ :c | c new run ]
+	(Benchmark allSubclasses reject: [ :c | c hasSubclasses ]) do: [ :c | c new run ]

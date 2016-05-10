@@ -5,6 +5,13 @@ run
 	2 timesRepeat: [ Smalltalk garbageCollect ].
 
 	(Delay forSeconds: self waitBeforeExecution) wait.
-	 IntelPowerGadget new
+
+	IntelPowerGadget new
 		logFilename: self logFileName;
-		profileAndGenerateLog: [ self execute ]
+		profileAndGenerateLog: [ self execute ];
+		exportAsCSV: self logFileName, '.csv'
+
+"	IntelPowerGadget new
+		parseFilenamed: self logFileName;
+		exportAsCSV: self logFileName, '.csv'
+"
