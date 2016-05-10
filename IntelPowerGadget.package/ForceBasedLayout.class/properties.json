@@ -10,5 +10,5 @@
 	"name" : "ForceBasedLayout",
 	"pools" : [
 		 ],
-	"super" : "Benchmark",
+	"super" : "MacroBenchmark",
 	"type" : "normal" }

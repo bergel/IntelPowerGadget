@@ -10,5 +10,5 @@
 	"name" : "GarbageCollector2",
 	"pools" : [
 		 ],
-	"super" : "Benchmark",
+	"super" : "MicroBenchmark",
 	"type" : "normal" }

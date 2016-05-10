@@ -10,5 +10,5 @@
 	"name" : "RecursiveFactorial",
 	"pools" : [
 		 ],
-	"super" : "Benchmark",
+	"super" : "MicroBenchmark",
 	"type" : "normal" }

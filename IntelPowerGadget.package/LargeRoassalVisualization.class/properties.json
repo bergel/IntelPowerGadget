@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GarbageCollector3",
+	"name" : "LargeRoassalVisualization",
 	"pools" : [
 		 ],
-	"super" : "MicroBenchmark",
+	"super" : "MacroBenchmark",
 	"type" : "normal" }
