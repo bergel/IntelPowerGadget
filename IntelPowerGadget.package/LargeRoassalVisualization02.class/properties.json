@@ -1,0 +1,14 @@
+{
+	"category" : "IntelPowerGadget-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LargeRoassalVisualization02",
+	"pools" : [
+		 ],
+	"super" : "MacroBenchmark",
+	"type" : "normal" }
