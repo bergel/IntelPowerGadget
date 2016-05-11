@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LargeRoassalVisualization02",
+	"name" : "GraphConstruction",
 	"pools" : [
 		 ],
 	"super" : "MacroBenchmark",
